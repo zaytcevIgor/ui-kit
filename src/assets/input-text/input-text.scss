@@ -1,0 +1,26 @@
+.input-text {
+    width: 292px;
+    height: 18px;
+    font-size: 14px;
+    padding: 13px;
+    border: 1px solid #cecece;
+    border-radius: 4px;
+    &:hover {
+            width: 292px;
+            height: 18px;
+            font-size: 14px;
+            background: #FFFFFF;
+            border: 1px solid rgba(31, 32, 65, 0.5);
+            color: rgba(31, 32, 65, 0.75);
+            border-radius: 4px;
+    }
+    &:focus {
+            width: 292px;
+            height: 18px;
+            font-size: 14px;
+            background: #FFFFFF;
+            border: 1px solid rgba(31, 32, 65, 0.5);
+            color: rgba(31, 32, 65, 0.75);
+            border-radius: 4px;
+    }
+  }

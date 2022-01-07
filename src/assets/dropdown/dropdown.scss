@@ -1,0 +1,49 @@
+@mixin chevron($degree: 45deg) {
+  display: inline-block; 
+  margin-bottom: 8px; 
+  border: 2px solid rgba(31, 32, 65, 0.5);
+  width: 7px;
+  height: 7px;
+  border-top: none;
+  border-left: none;
+  transform: rotate($degree);
+}
+
+
+
+.dropdown {
+  display: flex;
+  margin-top: 37px;
+  justify-content: space-between;
+  width: 320px;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  color: rgba(31, 32, 65, 0.75);
+  box-sizing: border-box;
+  border-radius: 4px;  
+  font-size: 14px;
+  line-height: 24px;  
+}
+
+.dropdown-chevron-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+
+.dropdown-text {
+    width: 276px;
+}
+
+.chevron-down {
+  @include chevron();
+}
+
+.text-field {
+  margin: 8px 0 0 15px;
+  font-size: 14px;
+  line-height: 24px;
+}

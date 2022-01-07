@@ -1,0 +1,27 @@
+.masked-date {
+    margin-top: 37px;
+    padding: 13px 13px;
+    width: 292px;
+    height: 18px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+
+    &::-webkit-datetime-edit-month-field {
+        color: rgba(31, 32, 65, 0.25);
+      }
+    &::-webkit-datetime-edit-day-field {
+        color: rgba(31, 32, 65, 0.25);
+      }
+    &::-webkit-datetime-edit-year-field {
+        color: rgba(31, 32, 65, 0.25);
+      }
+      
+    
+    
+    &::-webkit-calendar-picker-indicator {
+        display: none;
+    }
+
+}
+

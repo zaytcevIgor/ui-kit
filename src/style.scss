@@ -1,0 +1,17 @@
+
+@import "font.scss";
+@import "assets/input-text/input-text.scss";
+@import "assets/dropdown/dropdown.scss";
+@import "assets/masked-date/masked-date.scss";
+@import "assets/checkbox-button/checkbox-button.scss";
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper-center {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+

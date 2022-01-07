@@ -1,0 +1,16 @@
+mixin checkboxButton(id, text, active)
+    .container-checkbox 
+        input(class="checkbox-button" type="checkbox", id=id name="check-bnt", checked=active)
+        label(class!=attributes.class class="checkbox-label" for=id)
+            span.text= text 
+
+
++checkboxButton('check-btn', 'Можно курить')
+
++checkboxButton('btn', 'Можно с питомцами', 'checked')
+
++checkboxButton('label-btn', 'Можно пригласить гостей (до 10 человек)', 'checked')(class="margin-label")
+
+
+
+
